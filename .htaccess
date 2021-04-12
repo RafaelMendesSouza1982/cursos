@@ -1,0 +1,4 @@
+SetEnv APPLICATION_ENV development
+RewriteEngine On
+RewriteRule ^.*$ public/index.php
+php_value date.timezone 'America/Sao_Paulo'
